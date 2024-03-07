@@ -6,7 +6,7 @@
 /*   By: aubertra <aubertra@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/17 14:54:40 by aubertra          #+#    #+#             */
-/*   Updated: 2024/02/04 15:05:48 by aubertra         ###   ########.fr       */
+/*   Updated: 2024/03/05 10:58:48 by aubertra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,11 +40,18 @@ int	ft_atoi(const char *nptr)
 		nb = -nb;
 	return (nb);
 }
+/*
+#include <stdio.h>
 
-// #include <stdio.h>
+int	main(void)
+{
+	char	*nb1;
+	char	*nb2;
 
-// int	main(int ac, char **av)
-// {
-//  	printf("%d\n", ft_atoi(av[1]));
-//  	printf("%d\n", atoi(av[1]));
-// }
+	nb1 = "";
+	nb2 = "";
+  	printf("%d\n", ft_atoi(nb1));
+  	printf("%d\n", atoi(nb2));
+	return (0);
+}
+*/
